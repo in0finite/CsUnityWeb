@@ -1,0 +1,50 @@
+{
+  "mainAssemblyName": "DemoFile.ExternalCommunication.dll",
+  "resources": {
+    "hash": "sha256-L21pXuxxohpH8OHGf171lvjxsn68EHdJyP7mlh+EyxM=",
+    "jsModuleNative": {
+      "dotnet.native.js": "sha256-Zkk4rERsg984eINDT0ZmYqePzmAGc4rQF1BB4D9G6dM="
+    },
+    "jsModuleRuntime": {
+      "dotnet.runtime.js": "sha256-HZOoaGpz9ekMa/oSmeApSKp3DXNdVUq2UBqsTIIiN8A="
+    },
+    "wasmNative": {
+      "dotnet.native.wasm": "sha256-3UIBfLDA3Ytai5JA0TBP3Nd4mbGZZ88Yc1/P3pl6NR4="
+    },
+    "assembly": {
+      "DemoFile.wasm": "sha256-yoR5+i/T+zGVokFAK9dC9HxGnR8Vyyg2UNUriOjN2Ck=",
+      "DemoFile.ExternalCommunication.wasm": "sha256-YqMyKGwWLYYjJtBV+Q6J5cLzaqUostOUCsLKEBBvdqw=",
+      "Google.Protobuf.wasm": "sha256-scqT2bdEfoU/2DS0FQPLAyIgizBI5eTWrfY8GVnOD1s=",
+      "Snappier.wasm": "sha256-XtIyzkU3XKqkYTRtN7HQ4ZO0k/HTs/Lhc4pR4jX21jw=",
+      "System.Collections.Concurrent.wasm": "sha256-K4Nufnp8dTfqxfldVvTe8711ACC4aqLIAREpCYe9hE4=",
+      "System.Collections.wasm": "sha256-kqVH06wXqk8ANzE0gYD0Iiulcyc7UZiPjP3Pb59tg3I=",
+      "System.Collections.Immutable.wasm": "sha256-zNnWMzcZSBJqm8ZD+4vNHvx3BudvwgNlkY+Ygl/VNus=",
+      "System.ComponentModel.Primitives.wasm": "sha256-u6z2JLyKbelY7axBcmTE+tn1kEnjNnk00OXFQLrgMQM=",
+      "System.ComponentModel.TypeConverter.wasm": "sha256-WA0IrpbQFoVUCXRsba/Ya+UVA1heW/m6ZQixWVtd0hU=",
+      "System.Console.wasm": "sha256-w6jh4mmhjFi6Z1TWRvgNDVBD3we5nUO3p+zHWA9KvZU=",
+      "System.Diagnostics.DiagnosticSource.wasm": "sha256-Dc0tliiprRkRB/y7Ng7+fv1FjSt7IMS1kC7fbRb6sGE=",
+      "System.Drawing.wasm": "sha256-SKPnNkLA0uj/Vk+CWoXlraOJCr+qZC/qB4TApwQ8i4o=",
+      "System.Drawing.Primitives.wasm": "sha256-lI08JWbe9whaoyfdz9cSEh4ug2oergAfALJY4ZlA4f8=",
+      "System.Linq.wasm": "sha256-ixYbYu3hvH5pFVHX3+5AgA6Gb2zDZJiJ6XzXsUZrSzE=",
+      "System.Memory.wasm": "sha256-QNZ71hRGBUq/Om+zI6RMTy258hAcdksurz81nmCMd/A=",
+      "System.Net.Http.wasm": "sha256-F3wIHZFxcAWU2M91/rSqbuZBZiEP+/mS6z8SPgXe90k=",
+      "System.Net.Primitives.wasm": "sha256-plmfls8lcHK8qo2zM46rKIVm75LN7nDGEpNfR82S4Aw=",
+      "System.ObjectModel.wasm": "sha256-OKw5Hh9rbtNrvLeAyB1vB5xweF80WWa9AIS7MzMbA1A=",
+      "System.Private.CoreLib.wasm": "sha256-jSR4PYtNOR6PnBUcUPJG4ly5hiyDMILEmf16RnlCl/I=",
+      "System.Private.Uri.wasm": "sha256-AuasOJce4BJLlCMVWiVstPjcmXqSBzgDA5pnBaL1jfo=",
+      "System.Runtime.InteropServices.JavaScript.wasm": "sha256-kusUuMI74A+/rRPSOJZ9bhobCI5p1XICv7p+HbBkbR8=",
+      "System.Text.Encodings.Web.wasm": "sha256-Sv7TcvMHEMlM9LAapFVO0PyJZKwevNzUxKJgMjHgZNk=",
+      "System.Text.Json.wasm": "sha256-mQV2N+OImMH6hl0mrW+dGNE80JEqhqJDgYuKwiGyKd8=",
+      "System.Text.RegularExpressions.wasm": "sha256-VZj3nqWHW2F+r8HN4mi7rC8b4Y9MYVcsLMBwVAROmAQ=",
+      "ZstdSharp.wasm": "sha256-rHmGhJTjfdjNuxDHZZiVrzk0jcEtJVfyze5nS7kYmaE=",
+      "aot-instances.wasm": "sha256-F5jaGmVc7vzFjqtI3doCGKg/fQ7XiaS/ql2ej46UKTw="
+    },
+    "vfs": {
+      "runtimeconfig.bin": {
+        "supportFiles/0_runtimeconfig.bin": "sha256-DU56kdcIZEB13E6Ke+pvQfIbjOiINOdZDZ/5DKxruFY="
+      }
+    }
+  },
+  "debugLevel": 0,
+  "globalizationMode": "invariant"
+}

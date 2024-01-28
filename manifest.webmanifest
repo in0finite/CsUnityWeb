@@ -1,6 +1,6 @@
 {
-    "name": "Source2Unity",
-    "short_name": "Source2Unity",
+    "name": "CsUnity",
+    "short_name": "CsUnity",
     "start_url": "index.html",
     "display": "fullscreen",
     "background_color": "#231F20",

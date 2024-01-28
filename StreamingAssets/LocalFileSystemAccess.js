@@ -9,15 +9,31 @@ unityContainerElement.addEventListener('dragover', function (event) {
 
 unityContainerElement.addEventListener('drop', window.LocalFileSystem_HandleDropEvent);
 
-// this function doesn't work as part of jslib, so we keep it here
+
 function LocalFileSystem_ReadFileBlockingUsingXHR(fileIndex, streamPosition, countToRead) {
 
     var fileEntry = window.unityFileSystemEntries[fileIndex];
 
     if (!fileEntry.openedFile)
         return;
+
+    LocalFileSystem_ReadFileBlockingUsingXHRInternal(fileEntry.openedFile, streamPosition, countToRead);
+}
+
+function LocalFileSystem_ReadIndividualFileBlockingUsingXHR(fileId, streamPosition, countToRead) {
+
+    var fileEntry = window.unityIndividualFileEntries.get(fileId);
+
+    if (!fileEntry.openedFile)
+        return;
+
+    LocalFileSystem_ReadFileBlockingUsingXHRInternal(fileEntry.openedFile, streamPosition, countToRead);
+}
+
+// this function doesn't work as part of jslib, so we keep it here
+function LocalFileSystem_ReadFileBlockingUsingXHRInternal(file, streamPosition, countToRead) {
     
-    var slicedBlob = fileEntry.openedFile.slice(streamPosition, streamPosition + countToRead);
+    var slicedBlob = file.slice(streamPosition, streamPosition + countToRead);
 
     var url = URL.createObjectURL(slicedBlob);
 
